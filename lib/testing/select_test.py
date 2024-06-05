@@ -58,7 +58,7 @@ class TestSelectAllBearsNamesAndAgesThatAreAliveAndOrderYoungestToOldest:
         '''selects all of the bears names and ages that are alive and order them from youngest to oldest.'''
         result = cursor.execute(select_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest)
         assert(result.fetchall() == [
-            ("Grinch", 2),
+             ("Grinch", 2),
             ("Tabitha", 6),
             ("Wendy", 6),
             ("Rowdy", 10),
